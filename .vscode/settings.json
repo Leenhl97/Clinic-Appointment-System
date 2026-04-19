@@ -1,0 +1,33 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "Smart Healthcare Database",
+            "username": "root",
+            "database": "sys"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3307,
+            "driver": "MySQL",
+            "name": "ClinicConnection",
+            "username": "root",
+            "database": "clinic_db",
+            "password": ""
+        }
+    ]
+}
